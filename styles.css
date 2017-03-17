@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	color: #000;
+	background-image:url('https://i.stack.imgur.com/BA4eJ.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* ~~ Element/tag selectors ~~ */
+#title {
+	margin: auto;
+    width: 100%;
+    border: 3px ridge silver;
+    padding: 5px;
+	border-radius: 8px;
+	background-color: teal;
+}
+#title h1 {
+	text-align: center;
+}
+#nav {
+	margin: auto;
+	border: 3px ridge silver;
+	padding: 2px;
+	border-radius: 8px;
+	background-color:aquamarine;
+}
+#search {
+	float: left;
+	margin: auto;
+	position: relative;
+	border: 3px ridge silver;
+	height: 385px;
+	text-align: left;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: orange;
+}
+#list {
+	width:50%;
+	float: left;
+	position: relative;
+}
+#list h2 {
+	margin-left: 10px;
+}
+#bar {
+	margin:auto;
+	width: 888px;
+	height: 457px;
+	border: 3px ridge silver;
+	border-radius: 8px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url('http://weknowyourdreams.com/images/food/food-03.jpg');
+	/*opacity:0.5;*/
+}
+#bar input {
+	opacity:1;
+}
+.col-lg-6 {
+	text-align="center";
+}
+.btn btn-default {
+	position: absolute;
+	top: 50%;
+}
+#searching {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:200%
+}
+#searching h3 {
+	color:gray;
+	text-shadow: 3px 2px red;
+}
+#recommended {
+	width: 918px;
+	margin: 10px 50px;
+	padding: 10px;
+	border-radius: 8px;
+	
+}
+#recipe {
+	margin: auto;
+	border: 3px ridge silver;
+	width: 250px;
+	height: 210px;
+	padding-right: 22px;
+	border-radius: 8px;
+	background-color: silver;
+}
+/*#pic1 {
+	height: 100px;
+	width: 120px;
+	float:left;
+	margin-left:10px;
+	display:block;
+	border: 3px ridge silver;
+	border-radius: 8px;
+	background-image: url('http://static.food2fork.com/Jalapeno2BPopper2BGrilled2BCheese2BSandwich2B12B500fd186186.jpg');
+	background-size: cover;
+}
+
+#pic2 {
+	height: 100px;
+	width: 120px;
+	float:left;
+	margin-left:10px;
+	display:block;
+	border: 3px ridge silver;
+	border-radius: 8px;
+	background-image: url('http://static.food2fork.com/icedcoffee5766.jpg');
+	background-size: cover;
+}
+
+#pic3 {
+	height: 100px;
+	width: 120px;
+	float:left;
+	margin-left:10px;
+	display:block;
+	border: 3px ridge silver;
+	border-radius: 8px;
+	background-image: url('http://static.food2fork.com/CrashHotPotatoes5736.jpg');
+	background-size: cover;
+}
+
+#pic4 {
+	height: 100px;
+	width: 120px;
+	float:left;
+	margin-left:10px;
+	display:block;
+	border: 3px ridge silver;
+	border-radius: 8px;
+	background-image: url('http://static.food2fork.com/avocadomacandcheesedc99.jpg');
+	background-size: cover;
+}*/
