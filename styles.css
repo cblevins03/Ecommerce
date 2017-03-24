@@ -3,9 +3,8 @@
 
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-color: #FFF;
+	background-color: #eee;
 	color: #000;
-	background-image:url('https://i.stack.imgur.com/BA4eJ.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -47,23 +46,64 @@ body {
 #list h2 {
 	margin-left: 10px;
 }
+.suggested-recipes {
+	padding-right: 0px !important;
+}
+.suggested-recipes .row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.suggested-recipes [class*='col-'] {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.thumbnail .img-rounded
+{
+	width: 100%;
+	max-height: 125px;
+}
+.thumbnail h3 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.thumbnail p {
+	margin: 5px 0 0 0;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.thumbnail .btn
+{
+	margin-top: 10px;
+	width: 100%;
+}
+.thumbnail .caption {
+	text-align: center;
+}
 #bar {
-	margin:auto;
-	width: 888px;
+	width: 100%;
 	height: 457px;
-	border: 3px ridge silver;
+	border: 1px ridge silver;
 	border-radius: 8px;
-	padding: 10px;
 	text-align: center;
 	vertical-align: middle;
-	background-image: url('http://weknowyourdreams.com/images/food/food-03.jpg');
-	/*opacity:0.5;*/
+	background-image: url('./img/search-bg.png');
+	margin-bottom: 10px;
 }
 #bar input {
 	opacity:1;
+	display: block;
+	float: left;
 }
-.col-lg-6 {
-	text-align="center";
+#bar .input-group {
+	width: 50%;
+	margin: 212px auto 0 auto;
 }
 .btn btn-default {
 	position: absolute;
@@ -93,6 +133,13 @@ body {
 	border-radius: 8px;
 	background-color: silver;
 }
+.navbar {
+	margin-bottom: 15px !important;
+}
+
+#ingredients_list {
+	
+}
 /*#pic1 {
 	height: 100px;
 	width: 120px;
@@ -104,7 +151,6 @@ body {
 	background-image: url('http://static.food2fork.com/Jalapeno2BPopper2BGrilled2BCheese2BSandwich2B12B500fd186186.jpg');
 	background-size: cover;
 }
-
 #pic2 {
 	height: 100px;
 	width: 120px;
@@ -116,7 +162,6 @@ body {
 	background-image: url('http://static.food2fork.com/icedcoffee5766.jpg');
 	background-size: cover;
 }
-
 #pic3 {
 	height: 100px;
 	width: 120px;
@@ -128,7 +173,6 @@ body {
 	background-image: url('http://static.food2fork.com/CrashHotPotatoes5736.jpg');
 	background-size: cover;
 }
-
 #pic4 {
 	height: 100px;
 	width: 120px;

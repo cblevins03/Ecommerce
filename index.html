@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Set favicon -->
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+  <title>EZ Recipes: Home</title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-cutlery">&nbsp;</span>EZ Recipes</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Grocery Store</a></li>
+		<li><a href="#">User Account</a></li>
+		<li><a href="#">Shopping Cart</a></li>
+        <!--li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li-->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Help</a></li>
+        <!--li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul-->
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+
+<div class="container-fluid">
+  <div class="col-sm-2" style="padding: 0; margin: 0;">
+    <div class="list" style="margin-bottom: 15px">
+      <span class="list-group-item active" style="font-weight: bold">Categories</span>
+      <a href="#" class="list-group-item">Vegetarian</a>
+      <a href="#" class="list-group-item">Italian</a>
+      <a href="#" class="list-group-item">American</a>
+      <a href="#" class="list-group-item">Popular Recipes</a>
+    </div>
+    <div class="list" style="margin-bottom: 15px">
+      <span class="list-group-item active" style="font-weight: bold">Tools</span>
+      <a href="#" class="list-group-item">Popular Recipes</a>
+	  <a href="#" class="list-group-item">Something New</a>
+    </div>
+  </div>
+
+  <div class="col-sm-10 suggested-recipes">
+
+    <div id="bar">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for a recipe...">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">Go</button>
+        </span>
+      </div><!-- /input-group -->
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="thumbnail">
+          <img src="http://static.food2fork.com/Jalapeno2BPopper2BGrilled2BCheese2BSandwich2B12B500fd186186.jpg" alt="Jalapeno Popper Grilled Cheese Sandwich" class="img-rounded" />
+          <span class="badge" style="font-weight: bold; position: absolute; margin: -120px 0 0 5px; opacity: 0.75">#1 TRENDING</span>
+          <div class="caption">
+            <h3>Jalapeno Popper Grilled Cheese Sandwich</h3>
+            <p>This jalapeño popper grilled cheese sandwich turned out even better than expected! The buttery bread was perfectly crispy and it held in a torrent of melted cheese, the spicy jalapeño peppers and the crunchy tortilla chips! The cream cheese in these sandwiches was definitely a winner making the sandwich one of the creamiest and cheesiest grilled cheese sandwiches ever! All of that extra gooey melted cheese helped to temper the spicy heat of the jalapeño peppers. I served the jalapeno popper grilled cheese sandwich along with the remaining tortillas chips and some cool and creamy guacamole . </p>
+            <div class="go-to-recipe-btn"><a href="recipe.html" class="btn btn-primary" role="button">Go To Recipe</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="thumbnail">
+          <img src="http://static.food2fork.com/icedcoffee5766.jpg" alt="Perfect Iced Coffee" class="img-rounded" />
+          <span class="badge" style="font-weight: bold; position: absolute; margin: -120px 0 0 5px; opacity: 0.75">#2</span>
+          <div class="caption">
+            <h3>Perfect Iced Coffee</h3>
+            <p>Iced coffee is my life. When I wake up, often around the time party animals on the west coast are just heading home, I start each day not with a cup of freshly brewed hot java, but with a tall, blessed glass of creamy iced coffee in a glass. I’ve been an iced coffee freakazoid for years and years. To say I couldn’t live without it is an understatement. It gives me the tools I need to cope.</p>
+            <div class="go-to-recipe-btn"><a href="#" class="btn btn-primary" role="button">Go To Recipe</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="thumbnail">
+          <img src="http://static.food2fork.com/CrashHotPotatoes5736.jpg" alt="Crash Hot Potatoes" class="img-rounded suggested-recipe" />
+          <span class="badge" style="font-weight: bold; position: absolute; margin: -120px 0 0 5px; opacity: 0.75">#3</span>
+          <div class="caption">
+            <h3>Crash Hot Potatoes</h3>
+            <p>This looks good!!!!!!!!!</p>
+            <div class="go-to-recipe-btn"><a href="#" class="btn btn-primary" role="button">Go To Recipe</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="thumbnail">
+          <img src="http://static.food2fork.com/best_pizza_dough_recipe1b20.jpg" alt="Stovetop Avacado Mac and Cheese" class="img-rounded" />
+          <span class="badge" style="font-weight: bold; position: absolute; margin: -120px 0 0 5px; opacity: 0.75">#4</span>
+          <div class="caption">
+            <h3>Best Pizza Dough Ever</h3>
+            <p>This looks good!!!!!!!!!</p>
+            <div class="go-to-recipe-btn"><a href="#" class="btn btn-primary" role="button">Go To Recipe</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="thumbnail">
+          <img src="http://static.food2fork.com/Buffalo2BChicken2BGrilled2BCheese2BSandwich2B5002B4983f2702fe4.jpg" alt="Stovetop Avacado Mac and Cheese" class="img-rounded" />
+          <span class="badge" style="font-weight: bold; position: absolute; margin: -120px 0 0 5px; opacity: 0.75">#5</span>
+          <div class="caption">
+            <h3>Buffalo Chicken Grilled Cheese Sandwich</h3>
+            <p>This looks good!!!!!!!!!</p>
+            <div class="go-to-recipe-btn"><a href="#" class="btn btn-primary" role="button">Go To Recipe</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="thumbnail">
+          <img src="http://static.food2fork.com/333323997_04bd8d6c53da11.jpg" alt="Stovetop Avacado Mac and Cheese" class="img-rounded" />
+          <span class="badge" style="font-weight: bold; position: absolute; margin: -120px 0 0 5px; opacity: 0.75">#6</span>
+          <div class="caption">
+            <h3>Cinnamon Rolls</h3>
+            <p>This looks good!!!!!!!!!</p>
+            <div class="go-to-recipe-btn"><a href="#" class="btn btn-primary" role="button">Go To Recipe</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+
+</div>       
+
+</body>
+<footer>
+  <!-- Import jQuery -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</footer>
+</html> 
